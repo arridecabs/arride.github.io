@@ -19,8 +19,8 @@
 		large:    ( 981px,   1280px ),
 		medium:   ( 737px,   980px  ),
 		small:    ( 481px,   736px  ),
-		xsmall:   ( 361px,   480px  ),
-		xxsmall:  ( null,    360px  ),
+		xsmall:   ( 361px,   640px  ),
+		xxsmall:  ( 0px,    360px  ),
 		short:    '(max-height: 640px)'
 	));
 
@@ -32,13 +32,13 @@
 	@import 'base/typography';
 
 // Components.
-
+	@import 'components/button';
 	@import 'components/section';
 	@import 'components/icon';
 	@import 'components/list';
 	@import 'components/icons';
 	@import 'components/form';
-	@import 'components/button';
+	
 
 // Layout.
 
