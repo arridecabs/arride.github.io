@@ -8,7 +8,7 @@
 
 	"use strict";
 
-	var	$body = document.querySelector('body');
+	let	$body = document.querySelector('body');
 
 	// Methods/polyfills.
 
